@@ -1,0 +1,10 @@
+dnspython==2.1.0
+Pillow==8.1.0
+pprintpp==0.4.0
+pygeoip==0.3.2
+PyPDF2==1.26.0
+pythonwhois==2.4.3
+shodan==1.25.0
+termcolor==1.1.0
+whois11==0.0.8
+
