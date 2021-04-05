@@ -7,8 +7,9 @@ print("\n#######################################################################
       "\n           1) BUSQUEDA POR SHODAN "
       "\n           2) BUSQUEDA DE DNS"
       "\n           3) BUSQUEDA GEOIP"
-      "\n           4) BUSCAR METADATOS EN ARCHIVOS PDF"
-      "\n           5) BUSCAR METADATOS EN IMAGENES"
+      "\n           4) BUSQUEDA WHOIS"
+      "\n           5)BUSCAR METADATOS EN ARCHIVOS PDF"
+      "\n           6) BUSCAR METADATOS EN IMAGENES"
       "\n#######################################################################################")
 
 pregu = input("Escriba su opcion: ")
