@@ -118,8 +118,8 @@ def busque_geoip():
     """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
     gi = pygeoip.GeoIP('GeoLiteCity.dat')
-    consul_name = input("Escriba el codigo por nombre: ")
-    consul_address = input("Escriba el codigo por dirrecion: ")
+    consul_name = input("Escriba el codigo por nombre EJEMPLO(hola.com): ")
+    consul_address = input("Escriba el codigo por dirrecion EJEMPLO(192.168.168.161): ")
     pprintpp.pprint(colored("\n Código del pais del servidor por dominio: ",'red',attrs=['bold', 'blink']) + gi.country_code_by_name(consul_name))
     pprintpp.pprint(colored("\n Código del país del servidor por IP: ",'red',attrs=['bold', 'blink']) + gi.country_code_by_addr(consul_address))
     pprintpp.pprint(colored("\n Time zone del servidor por IP: ",'red',attrs=['bold', 'blink']) + gi.time_zone_by_addr(consul_address))
