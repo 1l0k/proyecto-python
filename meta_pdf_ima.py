@@ -11,6 +11,7 @@ from PyPDF2 import PdfFileReader
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
 def obtenerMetadatos():
+    print("Escoja su archivo PDF")
     archivo_pdf = PdfFileReader(askopenfilename())
 
     info_documento = archivo_pdf.getDocumentInfo()
