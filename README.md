@@ -15,14 +15,20 @@ pip install -r requirements.txt
 ********************
 # Uso de busqueda completa 
 **********************
-el uso es muy simple e intuitivo por lo cual no te romperas la cabeza uso:
+el uso es muy simple e intuitivo por lo cual no te romperas la cabeza en su uso:
 *********************
 python uso_de_busque.py
 **************************
 Automaticamente saldra un menu de opciones:
   ![uso_de_busque](https://user-images.githubusercontent.com/81997928/113639663-49313600-963f-11eb-9bf2-5344a27d1405.jpg)
 *******************************
-Despues el uso se vuelve muy intuitivo como lo mencione anteriormente, no se, complica mucho personas con poco conocimineto puede utilizar el script
+# Importante
+************************
+ Se tiene que cambiar el API DE SHODAN en el codigo:
+ <img width="660" alt="cambiarapideshodan" src="https://user-images.githubusercontent.com/81997928/113722987-884e9e00-96b6-11eb-9d10-7d4c2bdd2434.png">
+Esto esta en el codgio de busqueda_completa.py ahi facilmente con un editor te texto ponen entre comillas su api de shodan para que puedan hacer busquedas por shodan. 
+******************************
+Despues el uso se vuelve muy intuitivo como lo mencione anteriormente, no se, complica mucho personas con poco conocimineto informatico puede utilizar el script
 ******************************
 # Agradeciminetos  
 ************************************
